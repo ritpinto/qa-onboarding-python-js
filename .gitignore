@@ -1,0 +1,24 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+*.db
+*.sqlite3
+test-results/
+playwright-report/
+report.html
+assets/
+.DS_Store
+.vscode/
+.idea/
+# files learners generate in exercises
+course/*/exercises/output/
+course/*/solutions/output/
+node_modules/
+coverage/
+# temporary copies made while checks grade JavaScript exercises
+.grading/
+# scratch files the lessons suggest for trying examples; they are not handed in
+course/*/exercises/scratch.py
+course/*/exercises/try.test.js
