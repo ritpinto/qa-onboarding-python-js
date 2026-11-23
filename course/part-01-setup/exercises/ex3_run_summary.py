@@ -19,4 +19,11 @@ passed = 18
 failed = 2
 skipped = 1
 
-# TODO: print the four lines
+
+print("Total:", passed + failed + skipped)
+
+passed = 30
+
+print("Total:", passed + failed + skipped)
+
+

@@ -1,0 +1,7 @@
+[project]
+name = "qa-onboarding-python-js"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "pytest>=9.2.0",
+]
