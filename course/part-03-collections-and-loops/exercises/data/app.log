@@ -1,0 +1,23 @@
+2026-01-05 10:00:01 | INFO | Startup | Tracklet started on port 8000
+2026-01-05 10:00:03 | INFO | Login | user tester signed in
+2026-01-05 10:00:07 | ERROR | TimeoutError | payment service did not answer in 30 s
+2026-01-05 10:00:09 | WARNING | SlowQuery | ticket search took 2400 ms
+2026-01-05 10:00:12 | INFO | Ticket | ticket 13 created
+2026-01-05 10:00:15 | ERROR | ValidationError | title must be 3 to 120 characters
+2026-01-05 10:00:21 | ERROR | TimeoutError | payment service did not answer in 30 s
+
+2026-01-05 10:01:02 | INFO | Login | user maria signed in
+2026-01-05 10:01:05 | ERROR | ConnectionError | database refused the connection
+2026-01-05 10:01:06 | WARNING | Retry | reconnecting to database, attempt 1
+2026-01-05 10:01:08 | INFO | Database | connection restored
+2026-01-05 10:01:30 | ERROR | TimeoutError | email service did not answer in 10 s
+2026-01-05 10:02:11 | WARNING | SlowQuery | ticket list took 1900 ms
+2026-01-05 10:02:40 | INFO | Ticket | ticket 13 moved to in_progress
+
+2026-01-05 10:03:02 | ERROR | ConnectionError | database refused the connection
+2026-01-05 10:03:03 | WARNING | Retry | reconnecting to database, attempt 1
+2026-01-05 10:03:05 | INFO | Database | connection restored
+2026-01-05 10:03:44 | ERROR | PermissionError | user tester may not delete ticket 1
+2026-01-05 10:04:10 | ERROR | TimeoutError | payment service did not answer in 30 s
+2026-01-05 10:04:12 | INFO | Report | 8 ERROR lines since startup
+2026-01-05 10:04:15 | INFO | Logout | user tester signed out
