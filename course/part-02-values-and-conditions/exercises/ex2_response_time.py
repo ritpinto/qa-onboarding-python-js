@@ -20,18 +20,18 @@ pass_rate(passed, total)
 
 
 def to_seconds(milliseconds):
-    # TODO: replace the line below
-    return None
+    
+    return milliseconds / 1000
 
 
 def is_slow(milliseconds, limit_ms):
-    # TODO: replace the line below. A comparison already gives True or False.
-    return None
+  
+    return milliseconds > limit_ms
 
 
 def pass_rate(passed, total):
-    # TODO: replace the line below
-    return None
+    
+    return round(passed / total * 100, 1)
 
 
 # Try your functions.

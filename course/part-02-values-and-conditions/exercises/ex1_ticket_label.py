@@ -13,13 +13,11 @@ clean_username(username)
 
 
 def ticket_label(project_key, ticket_id, title):
-    # TODO: replace the line below. An f-string is the easiest way.
-    return None
+    return f"{project_key}-{ticket_id}: {title}"
 
 
 def clean_username(username):
-    # TODO: replace the line below
-    return None
+    return username.strip().lower()
 
 
 # Try your functions: run this file and compare with the examples above.
